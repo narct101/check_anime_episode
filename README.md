@@ -6,7 +6,7 @@ Make sure to change the url and api tokens to your instances.
 
 Also change the series['tags'] value to whatever anime tag you use in the 1st Sonarr instance.  For example I use the "dual" tag to differentiate my anime series to only download dual audio anime.  You can get this value by running the below command.
 
-[run this in powershell or linux command line]
+### run this in powershell or linux command line
 curl --request GET http://sonarr.sshlab.io/api/v3/tag?apikey=API_KEY_FOR_SONARR_DUB
 
 ## Parameters
